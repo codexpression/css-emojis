@@ -51,6 +51,7 @@ main {
     background-color: #dfd114;
     border-radius: 50%;
     margin: auto;
+    position: relative;
 }
 
 #happy #eyes {
@@ -84,9 +85,9 @@ main {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     position: absolute;
-    top: 210px;
-    left: 13.5%;
-
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 /* for expressionless */
 #expressionless {
@@ -94,6 +95,7 @@ main {
     height: 250px;
     background-color: #dfd114;
     border-radius: 50%;
+    position: relative;
     margin: auto;
 }
 
@@ -122,9 +124,9 @@ main {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     position: absolute;
-    top: 220px;
-    left: 46.7%;
-
+    top: 170px;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 #surprised {
     width: 250px;
@@ -132,6 +134,7 @@ main {
     background-color: #dfd114;
     border-radius: 50%;
     margin: auto;
+    position: relative;
 }
 
 #surprised #eyes {
@@ -164,7 +167,7 @@ main {
     height: 50px;
     border-radius: 50px;
     position: absolute;
-    top: 210px;
-    left: 80%;
-
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
